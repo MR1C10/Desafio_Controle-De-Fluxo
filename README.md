@@ -16,7 +16,7 @@ Criar um programa que receba dois números inteiros como parâmetros, compare os
 ## 🛠️ Tecnologias utilizadas
 
 - Java  
-- IntelliJ IDEA (ou IDE de sua preferência)
+- IntelliJ IDEA
 
 ---
 
