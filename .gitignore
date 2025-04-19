@@ -1,0 +1,56 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Arquivos compilados Java
+*.class
+
+# Arquivos de log
+*.log
+
+# Arquivos de pacotes
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Arquivos temporários do sistema
+Thumbs.db
+
+# Arquivos gerados pelo Java (como hs_err_pid.log)
+hs_err_pid*
+
+# Arquivos de lock (caso esteja usando build tools)
+**/*.lock
