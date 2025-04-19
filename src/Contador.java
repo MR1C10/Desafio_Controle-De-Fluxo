@@ -4,13 +4,10 @@ public class Contador {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
 
-//        System.out.println("Digite o primeiro parâmetro");
-//        int parametroUm = read.nextInt();
-//        System.out.println("Digite o segundo parâmetro");
-//        int parametroDois = read.nextInt();
-
-        int parametroUm = 5; // parametro teste
-        int parametroDois = 10; // parametro teste
+        System.out.println("Digite o primeiro parâmetro");
+        int parametroUm = read.nextInt();
+        System.out.println("Digite o segundo parâmetro");
+        int parametroDois = read.nextInt();
 
         try {
             contar(parametroUm, parametroDois);
@@ -28,7 +25,7 @@ public class Contador {
 
         int contagem = parametroDois - parametroUm;
 
-        for (int i = 1; i < contagem; i++) {
+        for (int i = 1; i <= contagem; i++) {
             System.out.println("Imprimindo o numero " + i);
         }
     }
